@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FolderWatcherDiagnostic.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="QueuedDocsPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\HNBGI\QUEUED_SCN_DOCS\</Value>
+    </Setting>
+    <Setting Name="RenewalAddedStatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RENEWAL_ADDED</Value>
+    </Setting>
+    <Setting Name="CancellationAddedStatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CANCELLATION_ADDED</Value>
+    </Setting>
+    <Setting Name="EndorsementAddedStatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ENDORSEMENT_ADDED</Value>
+    </Setting>
+    <Setting Name="SavedDocsPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\HNBGI\SCN_DOCS_3\</Value>
+    </Setting>
+    <Setting Name="UnknownDocsPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">E:\HNBGI\UNKNOWN_SCN_DOCS\</Value>
+    </Setting>
+    <Setting Name="connectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt; SERVER=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST= 192.168.10.160)(PORT=1580))(CONNECT_DATA=(SERVICE_NAME=APPS))); uid=hnba_crc;pwd=HNBACRC;&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OracleClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)"> SERVER=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST= 192.168.10.160)(PORT=1580))(CONNECT_DATA=(SERVICE_NAME=APPS))); uid=hnba_crc;pwd=HNBACRC;</Value>
+    </Setting>
+    <Setting Name="NewStatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OK</Value>
+    </Setting>
+    <Setting Name="NewFastTrackAddedStatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">INITIAL</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
